@@ -1,4 +1,4 @@
-# Ecommerce-Follow-Along
+npm i express mangose dotenv bcrypt cors jsonwebtoken cookie-parser nodemailernpm i express mangose dotenv bcrypt cors jsonwebtoken cookie-parser nodemailernpm i express mangose dotenv bcrypt cors jsonwebtoken cookie-parser nodemailernpm cd# Ecommerce-Follow-Along
 
 User-Friendly Interface
 
