@@ -22,3 +22,10 @@ catch(err){
     console.log(err);
 }    
 });
+
+app.use('/auth',userRouter)
+app.use('/product',productRouter)
+
+app.get('/',(req,res)=>{
+    res.send('Hello world');
+})
