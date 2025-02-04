@@ -1,11 +1,11 @@
 import './login.css';
 
-export default function Example() {
+export default function Login() {
   return (
     <>
       <div className="container">
         <div className="logo-section">
-          <img
+          <imgcd
             alt="Your Company"
             src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
             className="logo"

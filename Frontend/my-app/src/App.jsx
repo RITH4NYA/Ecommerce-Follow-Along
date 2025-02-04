@@ -1,8 +1,10 @@
 
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import Login from './Components/Login'
-import { Signup } from './Components/Signup'
+
+
+import Login from './component/login'
+import { Signup } from './component/signup'
 
 function App() {
  
@@ -18,4 +20,5 @@ function App() {
   )
 }
 
-export default App
+
+export default App;
