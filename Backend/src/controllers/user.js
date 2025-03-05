@@ -1,5 +1,5 @@
 const {Router}= require("express");
-const userModel = require("../model/userModel");
+const userModel = require("./src/model/userModel");
 const { upload } = require("../../multer");
 const jwt = require('jsonwebtoken');
 const bcrypt = require("bcrypt");
