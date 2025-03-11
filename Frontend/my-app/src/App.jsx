@@ -1,21 +1,25 @@
-
-import './App.css'
-import { Route, Routes } from 'react-router-dom'
-import Login from './Components/Login'
-import { Signup } from './Components/Signup'
+import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import { Login } from './Components/Login';
+import { Signup } from './Components/Signup';
+import { Home } from './page/home';
+import { ProductForm } from './Components/ProductForm';
+// import { Productcard } from './Components/productCard';
+import Navbar from '../src/Components/navabar';
 
 function App() {
- 
-
   return (
     <>
-    <Routes>
-      <Route path="/Login" element={<Login/>}/>
-      <Route path="/Signup" element={<Signup/>}/>
-    </Routes>
+    <Navbar/>
+      <Routes>
+        <Route path="/Login" element={<Login />} ></Route>
+        <Route path="/Signup" element={<Signup />} ></Route>
+        <Route path="/home" element={<Home />} ></Route>
+        <Route path='/productform' element={<ProductForm/>}/>
+        {/* <Route path ='/productCard' element={<Productcard/>}/> */}
+      </Routes>
     </>
-    
-  )
+  );
 }
 
-export default App
+export default App;
